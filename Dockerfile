@@ -6,4 +6,4 @@ CMD apt-get -y update
 
 CMD apt-get -y openssl
 
-WORKDIR /home
+CMD echo openssl -v
