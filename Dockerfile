@@ -6,7 +6,7 @@ CMD apt-get -y openssl
 
 FROM centos
 
-ENTRYPOINT ["/bin/openssl"]
+ENTRYPOINT ["/usr/bin/openssl"]
 
 CMD ["version"]
 
