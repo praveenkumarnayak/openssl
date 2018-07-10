@@ -4,7 +4,13 @@ CMD apt-get -y update
 
 CMD apt-get -y openssl
 
-CMD /bin/sh -t 
+FROM centos
 
-RUN ["/bin/sh", "-c", "openssl version"]
+ENTRYPOINT ["/bin/openssl"]
+
+CMD ["version"]
+
+#CMD /bin/sh -t 
+
+#RUN ["/bin/sh", "-c", "openssl version"]
 
