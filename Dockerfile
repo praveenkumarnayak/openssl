@@ -4,6 +4,6 @@ CMD apt-get -y update
 
 CMD apt-get -y openssl
 
-CMD /bin/sh -ti 
+CMD /bin/sh -t 
 
 
